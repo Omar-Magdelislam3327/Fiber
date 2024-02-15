@@ -1,0 +1,123 @@
+*{
+    font-family: "Inter", sans-serif;}
+:root{
+    --main:#4D13D1;
+    --second:#FBF8F3;   
+}
+.navbar , .section1{
+    background-color: var(--second);
+}
+.nav-link:hover{
+    color: var(--main) !important;
+}
+.btn-one{
+    background-color: var(--main);
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    padding: 10px 20px;
+    transition: 0.3s ease-in;
+    & a{
+        text-decoration: none;
+        color: white;
+    }
+}
+.btn-one:hover{
+    background-color: #45B19E;
+}
+.btn-two{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    transition: 0.3s ease-in;
+    & a{
+        text-decoration: none;
+        color: white;
+        color: black;
+
+    }
+}
+.btn-two:hover{
+    color: var(--main);
+}
+.btn-box{
+    background-color: white;
+    color: var(--main);
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    transition: 0.3s ease-in;
+}
+.btn-box:hover{
+    background-color: #45B19E;
+    color: white;
+}
+.btn-cli{
+    background-color: white;
+    color: var(--main);
+    border: 1px solid lightgray;
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: 0.3s ease-in;
+}
+.btn-cli:hover{
+    background-color: var(--main) !important;
+    color: white !important;
+}
+.links{
+    gap: 10px;
+}
+.txtt{
+    gap: 10px;
+}
+.section2{
+    & .title{
+        & h6{
+            font-weight: bold;
+            color: var(--main);
+        }
+        & h2{
+            font-weight: bold;
+        }
+    }
+}
+
+   .section3 .container {
+    background-color: #4d13d1;
+    border-radius: 20px;
+  }
+.carde{
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    padding: 20px;
+    & h6{
+        color: var(--main);
+    }
+}
+footer{
+    background-color: var(--second);
+}
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: var(--main);
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
